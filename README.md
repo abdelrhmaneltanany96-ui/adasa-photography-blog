@@ -1,19 +1,90 @@
-# React + Vite
+# ADASA — Photography Blog
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive photography blog built with React.js, designed to deliver a clean and engaging user experience.
 
-Currently, two official plugins are available:
+**[Live Demo](https://adasa-photography-blog-five.vercel.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Overview
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+ADASA is a photography blog application that allows users to explore articles, discover photography techniques, and browse content through an intuitive interface.
 
-Note: This will impact Vite dev & build performances.
-You can also try [the experimental native React Compiler support in plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md#rust-react-compiler) by using `compiler: true` in the plugin options instead of using the Babel plugin.
+The project focuses on reusable React components, client-side routing, responsive layouts, and interactive content filtering.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Responsive Design:** Optimized for desktop, tablet, and mobile devices.
+- **Dynamic Routing:** Seamless navigation between pages using React Router.
+- **Blog Details:** Individual article pages using dynamic URL parameters.
+- **Search:** Find articles based on relevant keywords.
+- **Category Filtering:** Browse articles by category.
+- **Grid & List Views:** Switch between different article layouts.
+- **Pagination:** Browse articles across multiple pages.
+- **404 Page:** Custom page for invalid routes.
+- **Scroll Restoration:** Automatically scroll to the top when navigating between pages.
+
+## Tech Stack
+
+- React.js
+- JavaScript (ES6+)
+- React Router
+- HTML5 & CSS3
+- Vite
+- Git & GitHub
+- Vercel
+
+## Getting Started
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/abdelrhmaneltanany96-ui/adasa-photography-blog.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd adasa-photography-blog
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+## Deployment
+
+The application is deployed on Vercel.
+
+**Live Website:** https://adasa-photography-blog-five.vercel.app/
+
+## What I Learned
+
+Building this project helped me strengthen my understanding of:
+
+- React component architecture and reusability.
+- React Router and dynamic routes.
+- Managing interactive UI functionality.
+- Implementing search, filtering, and pagination.
+- Building responsive user interfaces.
+- Deploying React applications to production.
+
+## Author
+
+**Abdelrhman Nasser**
+
+Frontend Developer | React.js
+
+---
+
+Built with React.js.
